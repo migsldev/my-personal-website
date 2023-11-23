@@ -1,0 +1,12 @@
+/* creating a dirrent layout for different screen sizes */
+
+/* if screen size is < 900px, the desktop-nav will disappear */
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+/* hamurger-nav replaces the desktop-nav screensize < 900px */
+    #hamburger-nav {
+        display: flex;
+    }
+}

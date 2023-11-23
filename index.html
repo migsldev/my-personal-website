@@ -20,6 +20,25 @@
                 </ul>
             </div>
     </nav>
+    <nav id="hamburger-nav"> <!-- Hamburrger menu nav-->
+        <div class="logo"><img src="./images/MLdev-logo.svg" 
+            alt="migsldev-logo" title="migsldev" width="70" height="70"></div> <!--placeholder for hamurger menu-->
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()"> <!-- onclick is a JS function, to toggle menu open and close, research CSS equivalent or alternative-->
+                <span></span> <!-- lines of the hamburger menu-->
+                <span></span> <!-- lines of the hamburger menu-->
+                <span></span> <!-- lines of the hamburger menu-->
+            </div>
+            <div class="menu-links"> <!--actual links when hamburger menu is opnened-->
+                <li><a href="#about" onclick="toggleMenu()">About</a></li> <!--whenever user clicks a link, the hamburge menu closes, not left open-->
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+        
+        
+    </nav>
     <script src="./script.js"></script>
 </body>
 </html>
