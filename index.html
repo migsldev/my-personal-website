@@ -39,6 +39,39 @@
         
         
     </nav>
+    <section id="profile"> <!--hero section -->
+        <div class="section_pic-container">
+            <img src="./assets/ML-side-circle.png" alt="MLdev profile picture"> <!--change photo to profesional front-facing-->
+
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Miguel</h1>
+            <p class="section_text_p2">Web Developer</p> <!--change title?-->
+            <div class="btn-container">
+                <!--BUTTONS-->
+                <!--Download CV button-->
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/resume-example.pdf')"> <!--loads the selected resource to a new window in JS-->
+                Download CV
+                </button>
+                <!--Transfer User to Contact Section-->
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"> <!--transfer the user to the contact section of the ID PROFILE (HERO SECTION)-->
+                Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <!--LinkedIn-->
+                <img src="/assets/linkedin.png" alt="My LinkedIn Profile" class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/miguel-leonar-451333253/'">
+                <!--Github-->
+                <img src="/assets/github.png" alt="My Github Profile" class="icon" 
+                    onclick="location.href='https://github.com/migsldev/'">
+            </div>
+        </div>
+
+    </section>
     <script src="./script.js"></script>
 </body>
 </html>
