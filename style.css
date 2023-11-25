@@ -218,6 +218,7 @@ section { /* making sure all the contents in the sections fit the screen */
 
 /* BUTTONS */
 
+/*changing the color of the buttons for CV and Contact Info when cursor hovers */
 .btn-container {
     display: flex;
     justify-content: center;
@@ -259,4 +260,58 @@ section { /* making sure all the contents in the sections fit the screen */
 
 .btn-container {
     gap: 1rem;
+}
+
+/* About section */
+
+#about {
+    position: relative;
+}
+
+.about-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container, .about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+/* arrow icon */
+.arrow { /*position the arrow lower right of the page */
+    position: absolute; /*making sure the arrow is absolute to the section of the page */
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+/*styling the about me section */
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section_pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
