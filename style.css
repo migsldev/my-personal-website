@@ -315,3 +315,120 @@ section { /* making sure all the contents in the sections fit the screen */
     width: 400px;
     margin: auto 0;
 }
+
+/* Experience Section */
+
+#experience {
+    position: relative; /* Arrow icon to procced to next page */
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap; /* setting up the content to wrap itself to fit the width of the container */ 
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display:  flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+/* Projects */
+
+#projects {
+    position: relative; /* Arrow icon to procced to next page */
+}
+
+.color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(255, 255, 255);
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: (250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container {
+    font-size: larger;
+}
+
+.contact-icon { /* setting up the icon cannot be clicked to access link, only through the email and linkedin word */
+    cursor: default;
+    height: 10rem;
+}
+
+.email-icon, .linkedin-icon{
+    height: 2.5rem;
+}
+
+/* Footer */
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+}
