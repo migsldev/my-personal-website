@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./mediaqueries.css"> <!-- linking to another css file-->
 </head>
 <body>
-    <nav id="desktop-nav">
+    <nav id="desktop-nav"> <!--Nav menu Desktop-->
         <div class="logo"><img src="./images/MLdev-logo.svg" 
             alt="migsldev-logo" title="migsldev" width="70" height="70"></div>
             <div>
@@ -20,7 +20,7 @@
                 </ul>
             </div>
     </nav>
-    <nav id="hamburger-nav"> <!-- Hamburrger menu nav-->
+    <nav id="hamburger-nav"> <!-- Hamburger menu nav-->
         <div class="logo"><img src="./images/MLdev-logo.svg" 
             alt="migsldev-logo" title="migsldev" width="70" height="70"></div> <!--placeholder for hamurger menu-->
         <div class="hamburger-menu">
@@ -159,7 +159,7 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="experience icon" class="icon">
                             <div>
-                                <h3>*Python/Node.JS</h3>
+                                <h3>*Python</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
@@ -242,15 +242,29 @@
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="email icon" 
                 class="icon contact-icon email-icon">
-                <p> <a href="mailto:exampleemail">Example@gmail.com</a></p> <!--when users click this, it opens the users' local email app -->
+                <p> <a href="mailto:exampleemail">migsldev@gmail.com</a></p> <!--when users click this, it opens the users' local email app -->
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn icon" 
                 class="icon contact-icon linkedin-icon">
                 <p> <a href="https://www.linkedin.com/in/miguel-leonar-451333253/">LinkedIn</a></p> <!--when users click this, it opens to LinkedIn profile -->
             </div>
+            <div class="form">
+                <form>
+                    <div class="subscribe-form">
+                        <label for="subscribe">Subscribe:</label><br>
+                        <input type="email" name="email" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="submit-btn">
+                        <label for="submit"></label>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
         </div>
+        
     </section>
+
     <footer> <!--Footer section-->
         <nav>
             <div class="nav-links-container">
@@ -262,7 +276,7 @@
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2023 Miguel Leonar. All Rights Reserved</p> <!--&#169 is the copyright symbol in html-->
+        <p>Copyright &#169; 2023 Miguel. All Rights Reserved</p> <!--&#169 is the copyright symbol in html-->
     </footer>
     <script src="./script.js"></script>
 </body>
